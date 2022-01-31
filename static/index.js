@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return '老年人手速是吧';
-        if (cps <= 10)  return '哎哟不错噢';
-        if (cps <= 15) return '您是神仙吧';
-        return '人？';
+        if (cps <= 5) return '是手冷了吗快来放我兜里';
+        if (cps <= 8) return '有进步奖励一个亲亲';
+        if (cps <= 10)  return '奖励暖被窝一次（';
+        if (cps <= 15) return '您是叶修？';
+        return '此乃真人也';
     }
 
     function toStr(obj) {
